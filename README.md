@@ -10,6 +10,7 @@ The site is plain static HTML, CSS, and JavaScript. Page files live at the repos
 - Production branch: `main`
 - Root directory: repository root
 - Build command: none
+- Git connection: Cloudflare Workers Builds, limited to this repository
 - Initial deploy command during migration: `npx wrangler@4.50.0 versions upload`
 - Non-production deploy command: `npx wrangler@4.50.0 versions upload`
 
